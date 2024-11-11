@@ -9,7 +9,7 @@ This project features a GUI built with Tkinter, stores data using SQLite, and pr
 - **BMR Calculation**: Determines Basal Metabolic Rate based on height, weight, gender, and age.
 - **TDEE Calculation**: Calculates Total Daily Energy Expenditure using BMR results and the user's selected activity level.
 - **Data Persistence**: Utilizes an SQLite database for saving and retrieving health data records, ensuring persistence between sessions.
-- **Historical Data Visualization**: Uses Matplotlib to graphically display trends in BMI, BMR, and TDEE over time.
+- **Historical Data Visualization**: Displays historical data trends for BMI, BMR, and TDEE, helping users to understand changes in their health metrics over time.
 
 ## Tech Stack
 
@@ -21,19 +21,18 @@ This project features a GUI built with Tkinter, stores data using SQLite, and pr
 
 ## Project Structure
 
-```plaintext
-Health_calculator/
-├── main.py               # Main application script
-├── database/             # Database folder
-│   └── Health_data.db    # SQLite database file
-├── tests/                # Unit tests folder
-│   ├── test_bmi.py       # Unit tests for BMI calculation
-│   ├── test_bmr.py       # Unit tests for BMR calculation
-│   └── test_tdee.py      # Unit tests for TDEE calculation
-└── README.md             # Project documentation
+  ```plaintext
+  Health_calculator/
+  ├── main.py               # Main application script
+  ├── database/             # Database folder
+  │   └── Health_data.db    # SQLite database file
+  ├── tests/                # Unit tests folder
+  │   ├── test_bmi.py       # Unit tests for BMI calculation
+  │   ├── test_bmr.py       # Unit tests for BMR calculation
+  │   └── test_tdee.py      # Unit tests for TDEE calculation
+  └── README.md             # Project documentation
+  '''
+## Install
 
-Installation & Usage
-Requirements
-Python 3.x
-Matplotlib
-Installation
+
+
