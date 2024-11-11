@@ -21,18 +21,36 @@ This project features a GUI built with Tkinter, stores data using SQLite, and pr
 
 ## Project Structure
 
-  ```plaintext
-  Health_calculator/
-  ├── main.py               # Main application script
-  ├── database/             # Database folder
-  │   └── Health_data.db    # SQLite database file
-  ├── tests/                # Unit tests folder
-  │   ├── test_bmi.py       # Unit tests for BMI calculation
-  │   ├── test_bmr.py       # Unit tests for BMR calculation
-  │   └── test_tdee.py      # Unit tests for TDEE calculation
-  └── README.md             # Project documentation
-  '''
-## Install
+```plaintext
+Health_calculator/
+├── main.py               # Main application script
+├── database/             # Database folder
+│   └── Health_data.db    # SQLite database file
+├── tests/                # Unit tests folder
+│   ├── test_bmi.py       # Unit tests for BMI calculation
+│   ├── test_bmr.py       # Unit tests for BMR calculation
+│   └── test_tdee.py      # Unit tests for TDEE calculation
+└── README.md             # Project documentation
+```
 
+## Installation & Usage
+
+### Requirements
+
+- Python 3.x
+- Matplotlib
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/Health_calculator.git
+   cd Health_calculator
+    ```
+2. Install the required Python packages:
+   ```
+   pip install -r requirements.txt
+    ```
+   
 
 
