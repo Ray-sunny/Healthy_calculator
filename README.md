@@ -49,8 +49,26 @@ Health_calculator/
     ```
 2. Install the required Python packages:
    ```
-   pip install -r requirements.txt
+   pip install matplotlib
     ```
+
+### Run the Main Application
+
+- To run the main application:
+   ```
+   python main.py
+   ```
+   This will launch the Health Calculator GUI, allowing you to calculate and store BMI, BMR, and TDEE results in the SQLite database.
+
+### Running Tests
+
+- To run unit tests and verify the accuracy of calculations:
+   ```
+   python -m unittest discover tests
+   ```
+   This command runs all unit tests in the tests folder, ensuring the correctness of BMI, BMR, and TDEE calculations.
+   
+
    
 
 
