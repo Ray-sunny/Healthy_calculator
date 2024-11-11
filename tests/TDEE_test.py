@@ -1,4 +1,4 @@
-from Healthy_calculator_BMI_BMR_TDEE_2 import cal_tdee_test
+from Healthy_calculator_BMI_BMR_TDEE import cal_tdee_test
 import unittest
 
 class TdeeTestCase(unittest.TestCase):
