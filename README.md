@@ -13,7 +13,7 @@ This project features a GUI built with Tkinter, stores data using SQLite, and pr
 
 ## Tech Stack
 
-- **Python 3**: Core programming language for the project.
+- **Python 3**: A core programming language for the project.
 - **Tkinter**: Provides the graphical user interface.
 - **SQLite**: Database system used for storing and managing health records.
 - **Matplotlib**: Generates trend graphs for BMI, BMR, and TDEE.
@@ -31,3 +31,9 @@ Health_calculator/
 │   ├── test_bmr.py       # Unit tests for BMR calculation
 │   └── test_tdee.py      # Unit tests for TDEE calculation
 └── README.md             # Project documentation
+
+Installation & Usage
+Requirements
+Python 3.x
+Matplotlib
+Installation
