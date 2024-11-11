@@ -24,8 +24,7 @@ This project features a GUI built with Tkinter, stores data using SQLite, and pr
 ```plaintext
 Health_calculator/
 ├── main.py               # Main application script
-├── database/             # Database folder
-│   └── Health_data.db    # SQLite database file
+├── database/             # Database folder (contains SQLite database file)
 ├── tests/                # Unit tests folder
 │   ├── test_bmi.py       # Unit tests for BMI calculation
 │   ├── test_bmr.py       # Unit tests for BMR calculation
